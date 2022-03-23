@@ -1,0 +1,15 @@
+--- # Application configuration - AWS EC2 details
+ec2tags:
+  instance_image_id: ami-0e1d30f2c40c4c701
+  instance_securtity_groups:
+    [{ "GroupName": "Security_group_new", "GroupId": "sg-0aa544ae6aa365dd7" }]
+  instance_state: { "Code": 16, "Name": "running" }
+  instance_public_address: 3.216.133.78
+  instance_tag: [{ "Key": "Name", "Value": "onboarding_qa_annapoorani" }]
+ec2volume:
+  instance_volume_id: "vol-0feeb23add36ef1fa"
+  instance_voulme_size: 8
+  instance_volume_state: "in-use"
+ec2network:
+  instance_ip_address: 172.31.14.218
+  instance_tag: [{ "Key": "Name", "Value": "onboarding_qa_annapoorani" }]
